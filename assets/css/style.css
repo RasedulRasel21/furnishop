@@ -276,7 +276,7 @@ a {
 .products-top {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 50px 100px;
+  padding: 25px 100px;
   grid-gap: 32px;
   text-align: left;
 }
@@ -844,7 +844,13 @@ a {
   .header-menu ul li a {
     color: #fff;
   }
-
+  .dropdown-content {
+    display: block;
+    position: relative;
+    background-color: #1d1d1d;
+    min-width: 100%;
+    box-shadow: none;
+  }
   .quote-bg-mobile {
     display: block;
   }
@@ -930,7 +936,7 @@ a {
   }
   .header-carousel .slick-dots {
     left: 30%;
-    top: -12px;
+    top: -5px;
   }
   .img-text {
     margin-top: 460px;
