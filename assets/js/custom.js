@@ -64,7 +64,7 @@ $('.tips-carousel').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   dots:true,
-  autoplay: false,
+  autoplay: true,
   centerMode: true,
   centerPadding: "0px",
   autoplaySpeed: 2000,
