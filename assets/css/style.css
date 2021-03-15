@@ -308,7 +308,8 @@ a {
 }
 .label {
   position: absolute;
-  margin: 20px 215px;
+  right: 0;
+  margin: 24px;
 }
 .old-price {
   text-decoration-line: line-through;
@@ -614,6 +615,7 @@ a {
   opacity: 0.5;
   visibility: hidden;
   transform: scale(1);
+  overflow: hidden;
 }
 .effect-image-1:hover .overlay-text-2 {
   opacity: 0.7;
@@ -686,7 +688,6 @@ a {
     height: 550px;
   }
   .products-top {
-    padding: 50px;
     grid-gap: 30px;
   }
   .header-text-left {
@@ -1025,9 +1026,8 @@ a {
   }
   .label {
     position: absolute;
-    margin: 0;
-    right: 50px;
-    margin-top: 30px;
+    right: 0;
+    margin: 15px;
   }
   .gallery-two {
     margin-top: -205px;
