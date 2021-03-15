@@ -459,6 +459,9 @@ a {
   background-color: #fff;
 }
 
+.gallery img {
+  width: 100%;
+}
 .gallery h1 {
   font-size: 40px;
   margin-top: 10px;
@@ -474,7 +477,7 @@ a {
 }
 .gallery-three-top {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 4fr 1.5fr;
   grid-gap: 16px;
 }
 .gallery-bottom {
@@ -488,9 +491,6 @@ a {
 }
 .gallery-one-top .gallery-right img {
   transform: translate(0, 46%);
-}
-.gallery-three-top .gallery-left img {
-  transform: translate(0, 30%);
 }
 .footer-section {
   padding: 50px 100px;
